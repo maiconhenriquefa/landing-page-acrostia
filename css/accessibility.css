@@ -1,0 +1,11 @@
+img[alt] {
+  font-size: 1.6rem;
+}
+
+img[alt^='icon'] {
+  color: black;
+}
+
+img[alt='logo-acrostia'] {
+  font-size: 1.8rem;
+}

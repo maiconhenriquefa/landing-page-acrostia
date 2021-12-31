@@ -1,0 +1,108 @@
+@import url(./style.css);
+
+/* Resize large: start */
+@media (max-width: 1100px) {
+  html,
+  body {
+    font-size: 50%;
+  }
+
+  #home-container,
+  #services-container,
+  #contacts-container {
+    height: 100vh;
+    width: 80%;
+  }
+}
+/* Resize large: end */
+/* Resize medium: start */
+@media (max-width: 768px) {
+  #services {
+    height: 110rem;
+  }
+
+  .services-options {
+    height: 32rem;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30rem 30rem;
+    grid-gap: 1.5rem;
+    padding-top: 2rem;
+  }
+
+  .home-content p {
+    font-size: 3.5rem;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+  }
+
+  .home-content b {
+    width: 60%;
+    font-size: 6.4rem;
+    text-align: center;
+  }
+
+  .address-questions {
+    height: 60rem;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .address {
+    width: 100%;
+  }
+
+  .questions {
+    width: 100%;
+  }
+
+  #contacts-container .section-content {
+    height: 70%;
+    padding-bottom: 20rem;
+  }
+  #contacts {
+    height: 150vh;
+  }
+}
+/* Resize medium: end */
+/* Resize small: start */
+@media (max-width: 338px) {
+  html,
+  body {
+    font-size: 48%;
+  }
+
+  #services {
+    height: 180rem;
+  }
+
+  .nav-bar-menu {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .services-options {
+    grid-template-columns: 1fr;
+    grid-template-rows: 30rem 30rem 30rem 30rem;
+    padding-top: 2rem;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+  }
+
+  #home-container,
+  #services-container,
+  #contacts-container {
+    width: 90%;
+  }
+
+  .section-content {
+    padding-bottom: 0;
+  }
+}
+/* Resize small: end */
