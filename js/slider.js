@@ -10,7 +10,7 @@ export default async function initSlider() {
   let sliderContainer = document.querySelector('.slider-container');
   let contentTitle = document.querySelectorAll('.home-content');
   let sliderItems = document.querySelectorAll('.slider-item');
-  let objectCarousel = await requisition('../json/carousel.json');
+  let objectCarousel = await requisition(`../json/carousel.json`);
   let activeDot = [...document.querySelectorAll('.dot')];
 
   //Interacting with API: start
@@ -29,7 +29,7 @@ export default async function initSlider() {
   //Init items API: start
   for (let i = 0; i < sliderItems.length; i++) {
     contentTitle[i].innerHTML = `<p>${listTitle[i]}</p>`;
-    sliderItems[i].style.backgroundImage = `url('${listImage[i]}')`;
+    sliderItems[i].style.backgroundImage = `url(${listImage[i]})`;
     activeDot[i].addEventListener('click', handleDot);
   }
   //Init items API: end
