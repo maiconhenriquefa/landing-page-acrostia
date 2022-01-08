@@ -29,7 +29,7 @@ export default async function initSlider() {
   //Init items API: start
   for (let i = 0; i < sliderItems.length; i++) {
     contentTitle[i].innerHTML = `<p>${listTitle[i]}</p>`;
-    sliderItems[i].style.backgroundImage = `url("${listImage[i]}")`;
+    sliderItems[i].style.backgroundImage = `url('${listImage[i]}')`;
     activeDot[i].addEventListener('click', handleDot);
   }
   //Init items API: end
