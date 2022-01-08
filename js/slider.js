@@ -10,7 +10,7 @@ export default async function initSlider() {
   let sliderContainer = document.querySelector('.slider-container');
   let contentTitle = document.querySelectorAll('.home-content');
   let sliderItems = document.querySelectorAll('.slider-item');
-  let objectCarousel = await requisition(`./json/carousel.json`);
+  let objectCarousel = await requisition('../../json/carousel.json');
   let activeDot = [...document.querySelectorAll('.dot')];
 
   //Interacting with API: start
