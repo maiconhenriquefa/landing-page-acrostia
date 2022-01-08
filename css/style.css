@@ -266,7 +266,7 @@ header nav a {
   display: flex;
   justify-content: center;
   background-color: var(--color-dusty-red);
-  background-image: url(../img/layers/layer-1.png);
+  background-image: url('../img/layers/layer-1.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -402,7 +402,7 @@ header nav a {
   background-color: var(--color-greyblue);
   display: flex;
   justify-content: center;
-  background-image: url(../img/layers/layer-2.png);
+  background-image: url('../img/layers/layer-2.png');
   background-size: 80rem;
   background-repeat: no-repeat;
 }
@@ -479,7 +479,7 @@ header nav a {
   width: 40rem;
   height: 20rem;
   background-color: #ff8973;
-  background-image: url(/img/layers/layer-3.png);
+  background-image: url('/img/layers/layer-3.png');
   background-size: contain;
   border-radius: 0.5rem;
 }
