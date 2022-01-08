@@ -6,7 +6,6 @@ export default function initMenuActive() {
   // Change active item: start
   function changeItemHome(event) {
     for (let i = 0; i < menuHome.length; i++) {
-      console.log(menuHome);
       menuHome[i].classList.remove('active');
     }
     event.target.classList.add('active');
@@ -36,7 +35,6 @@ export default function initMenuActive() {
   // Change active item: start
   function changeItemService(event) {
     for (let i = 0; i < menuServices.length; i++) {
-      console.log(menuServices);
       menuServices[i].classList.remove('active');
     }
     event.target.classList.add('active');
@@ -66,7 +64,6 @@ export default function initMenuActive() {
   // Change active item: start
   function changeItemContacts(event) {
     for (let i = 0; i < menuContacts.length; i++) {
-      console.log(menuContacts);
       menuContacts[i].classList.remove('active');
     }
     event.target.classList.add('active');
